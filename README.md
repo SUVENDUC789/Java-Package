@@ -31,3 +31,16 @@ public class Main {
     }
 }
 ```
+
+## Output :
+```
+C:\Users\suven\Desktop\Java\Test>java Main.java
+Rotate image : Print matrix (After Rotate image) :
+[70, 40, 10]
+[80, 50, 20]
+[90, 60, 30]
+ Print matrix (Only transpose) :
+[70, 80, 90]
+[40, 50, 60]
+[10, 20, 30]
+```
