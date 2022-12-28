@@ -31,7 +31,7 @@ public class Main {
         p.printMatrix(a);
 
 
-        // This is mt trim method 
+        // This is my trim() method 
         MyStringMethod o = new MyStringMethod();
 
         System.out.println(o.trim("   Suvendu    "));
@@ -39,7 +39,6 @@ public class Main {
 
     }
 }
-
 ```
 
 ## Output :
