@@ -6,6 +6,7 @@
 import suvendu.matrix2d.*;
 import suvendu.image2d.*;
 import suvendu.mystring.*;
+import suvendu.python.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,6 +37,11 @@ public class Main {
 
         System.out.println(o.trim("   Suvendu    "));
         System.out.println(o.trim("   Suvendu    ").length());
+
+        System.out.println(Python.type("Suvendu Choedhury"));
+        for (int i : Python.range(4, 10, 2)) {
+            System.out.println(i);
+        }
 
     }
 }
